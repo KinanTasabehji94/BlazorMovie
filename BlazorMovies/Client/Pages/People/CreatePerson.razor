@@ -1,0 +1,26 @@
+﻿@page "/person/create"
+@inject IPersonRepository personRepository
+@inject NavigationManager navigationManager
+@attribute [Authorize(Roles = "Admin")]
+
+<h3>Create Person</h3>
+
+<PersonForm Person="person" onValidSubmit="Create" />
+
+@code {
+    private Person person = new Person();
+
+    private async Task Create()
+    {
+        try
+        {
+            await personRepository.CreatePerson(person);
+            navigationManager.NavigateTo("people");
+        }
+        catch (Exception ex)
+        {
+            //...
+            Console.WriteLine(ex.Message);
+        }
+    }
+}

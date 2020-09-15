@@ -1,0 +1,75 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\SVU\\ATH\\Projects\\BlazorMovies7\\BlazorMovies\\Shared\\BlazorMovies.Shared.csproj": {}
+  },
+  "projects": {
+    "D:\\SVU\\ATH\\Projects\\BlazorMovies7\\BlazorMovies\\Shared\\BlazorMovies.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\SVU\\ATH\\Projects\\BlazorMovies7\\BlazorMovies\\Shared\\BlazorMovies.Shared.csproj",
+        "projectName": "BlazorMovies.Shared",
+        "projectPath": "D:\\SVU\\ATH\\Projects\\BlazorMovies7\\BlazorMovies\\Shared\\BlazorMovies.Shared.csproj",
+        "packagesPath": "C:\\Users\\kinan\\.nuget\\packages\\",
+        "outputPath": "D:\\SVU\\ATH\\Projects\\BlazorMovies7\\BlazorMovies\\Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kinan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files (x86)\\Progress\\Telerik UI for Blazor 2.15.0\\packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Markdig": {
+              "target": "Package",
+              "version": "[0.20.0, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "Tewr.Blazor.FileReader": {
+              "target": "Package",
+              "version": "[1.6.0.20166, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

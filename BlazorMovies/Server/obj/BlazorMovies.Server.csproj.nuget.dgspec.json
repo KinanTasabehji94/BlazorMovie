@@ -1,0 +1,267 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\SVU\\ATH\\Projects\\BlazorMovies7\\BlazorMovies\\Server\\BlazorMovies.Server.csproj": {}
+  },
+  "projects": {
+    "D:\\SVU\\ATH\\Projects\\BlazorMovies7\\BlazorMovies\\Client\\BlazorMovies.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\SVU\\ATH\\Projects\\BlazorMovies7\\BlazorMovies\\Client\\BlazorMovies.Client.csproj",
+        "projectName": "BlazorMovies.Client",
+        "projectPath": "D:\\SVU\\ATH\\Projects\\BlazorMovies7\\BlazorMovies\\Client\\BlazorMovies.Client.csproj",
+        "packagesPath": "C:\\Users\\kinan\\.nuget\\packages\\",
+        "outputPath": "D:\\SVU\\ATH\\Projects\\BlazorMovies7\\BlazorMovies\\Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kinan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files (x86)\\Progress\\Telerik UI for Blazor 2.15.0\\packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {
+              "D:\\SVU\\ATH\\Projects\\BlazorMovies7\\BlazorMovies\\Shared\\BlazorMovies.Shared.csproj": {
+                "projectPath": "D:\\SVU\\ATH\\Projects\\BlazorMovies7\\BlazorMovies\\Shared\\BlazorMovies.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Markdig": {
+              "target": "Package",
+              "version": "[0.20.0, )"
+            },
+            "Microsoft.AspNetCore.Components.Authorization": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.Build": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "Tewr.Blazor.FileReader": {
+              "target": "Package",
+              "version": "[1.6.0.20166, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\SVU\\ATH\\Projects\\BlazorMovies7\\BlazorMovies\\Server\\BlazorMovies.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\SVU\\ATH\\Projects\\BlazorMovies7\\BlazorMovies\\Server\\BlazorMovies.Server.csproj",
+        "projectName": "BlazorMovies.Server",
+        "projectPath": "D:\\SVU\\ATH\\Projects\\BlazorMovies7\\BlazorMovies\\Server\\BlazorMovies.Server.csproj",
+        "packagesPath": "C:\\Users\\kinan\\.nuget\\packages\\",
+        "outputPath": "D:\\SVU\\ATH\\Projects\\BlazorMovies7\\BlazorMovies\\Server\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kinan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files (x86)\\Progress\\Telerik UI for Blazor 2.15.0\\packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\SVU\\ATH\\Projects\\BlazorMovies7\\BlazorMovies\\Client\\BlazorMovies.Client.csproj": {
+                "projectPath": "D:\\SVU\\ATH\\Projects\\BlazorMovies7\\BlazorMovies\\Client\\BlazorMovies.Client.csproj"
+              },
+              "D:\\SVU\\ATH\\Projects\\BlazorMovies7\\BlazorMovies\\Shared\\BlazorMovies.Shared.csproj": {
+                "projectPath": "D:\\SVU\\ATH\\Projects\\BlazorMovies7\\BlazorMovies\\Shared\\BlazorMovies.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Markdig": {
+              "target": "Package",
+              "version": "[0.20.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.Server": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Tewr.Blazor.FileReader": {
+              "target": "Package",
+              "version": "[1.6.0.20166, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\SVU\\ATH\\Projects\\BlazorMovies7\\BlazorMovies\\Shared\\BlazorMovies.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\SVU\\ATH\\Projects\\BlazorMovies7\\BlazorMovies\\Shared\\BlazorMovies.Shared.csproj",
+        "projectName": "BlazorMovies.Shared",
+        "projectPath": "D:\\SVU\\ATH\\Projects\\BlazorMovies7\\BlazorMovies\\Shared\\BlazorMovies.Shared.csproj",
+        "packagesPath": "C:\\Users\\kinan\\.nuget\\packages\\",
+        "outputPath": "D:\\SVU\\ATH\\Projects\\BlazorMovies7\\BlazorMovies\\Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kinan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files (x86)\\Progress\\Telerik UI for Blazor 2.15.0\\packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Markdig": {
+              "target": "Package",
+              "version": "[0.20.0, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "Tewr.Blazor.FileReader": {
+              "target": "Package",
+              "version": "[1.6.0.20166, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
