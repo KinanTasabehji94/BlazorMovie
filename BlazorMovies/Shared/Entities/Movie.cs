@@ -9,6 +9,7 @@ namespace BlazorMovies.Shared.Entities
     {
         //Second Comment
         //Comment
+        //another Comment
         public int Id { get; set; }
         [Required]
         public string Title { get; set; }
