@@ -7,6 +7,7 @@ namespace BlazorMovies.Shared.Entities
 {
     public class Movie
     {
+        //Second Comment
         public int Id { get; set; }
         [Required]
         public string Title { get; set; }
