@@ -6,6 +6,7 @@ using System.Text;
 
 namespace BlazorMovies.Shared.Entities
 {
+    //coment
     public class Person
     {
         public int Id { get; set; }
