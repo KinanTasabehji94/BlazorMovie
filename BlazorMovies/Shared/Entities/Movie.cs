@@ -7,11 +7,8 @@ namespace BlazorMovies.Shared.Entities
 {
     public class Movie
     {
-<<<<<<< HEAD
         //Second Comment
-=======
         //Comment
->>>>>>> 82481bbd0e321280fa862c20cc3988d8101015e7
         public int Id { get; set; }
         [Required]
         public string Title { get; set; }
